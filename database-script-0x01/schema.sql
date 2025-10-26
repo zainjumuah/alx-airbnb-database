@@ -1,4 +1,4 @@
--- TABLE Creation according to the Entities and Attributes properties' Concept
+-- TABLE Creation based on provided database specification
 -- 1. USER TABLE
 CREATE TABLE "User" (
     user_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
