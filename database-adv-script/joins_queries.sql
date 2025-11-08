@@ -32,6 +32,9 @@ LEFT JOIN
     Review AS r
 ON
     p.property_id = r.property_id;
+ORDER BY
+    p.name ASC,
+    r.created_at DESC;
 
 
 -- FULL OUTER JOINs
