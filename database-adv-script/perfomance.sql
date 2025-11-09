@@ -30,7 +30,7 @@ WHERE
     AND p.location = 'Lagos, Nigeria'
 ORDER BY
     b.start_date DESC;
-
+EXPLAIN ANALYZE
 SELECT
     b.booking_id,
     b.start_date,
